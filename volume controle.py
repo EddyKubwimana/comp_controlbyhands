@@ -43,7 +43,6 @@ while True:
         if lmlist:
             _, info, img = detector.findDistance(lmlist[8], lmlist[4], img)
             dist, _, img = detector.findDistance(lmlist[8], lmlist[12], img)
-            print(dist)
             x1, y1 = lmlist[4]
             x2, y2 = lmlist[8]
             lenght = math.sqrt(((x2 - x1) ** 2) + (y2 - y1) ** 2)
